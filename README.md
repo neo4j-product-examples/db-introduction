@@ -8,7 +8,7 @@ The other option is to load the sample data into local databases running on Neo4
 
 ### AuraDB Option
 
-![image](https://raw.githubusercontent.com/neo4j-product-examples/db-introduction/main/img/Aura.png)
+![image](https://github.com/neo4j-product-examples/db-introduction/blob/9b8e2935c1900270c6dffa5dc281c91b6f39dc70/img/Aura.png)
 
 ### Local (Neo4j Desktop) Option
 
