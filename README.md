@@ -12,7 +12,7 @@ The other option is to load the sample data into local databases running on Neo4
 
 ![image](https://github.com/neo4j-product-examples/db-introduction/blob/9b8e2935c1900270c6dffa5dc281c91b6f39dc70/img/Aura.png)
 
-For this option, simply log into your Aura account and create a Free instance. You can use any of the ptions that have sample data, but the StackOverflow, Recommendations, and Cybersecurity may 
+For this option, simply log into your Aura account and create a Free instance. You can use any of the ptions that have sample data, but the StackOverflow, Recommendations, and Cybersecurity may resonate more.
 
 ### Local (Neo4j Desktop) Option
 
