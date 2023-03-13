@@ -6,6 +6,13 @@ There are two options for running the demos. The preferred approach is to use an
 
 The other option is to load the sample data into local databases running on Neo4j Desktop. This will allow you to have all of the databases available at once and will also allow demos where there is no connection to the Internet (provided of course, that you have already downloaded the required software and sample data first). A drawback to this option is that you will not be able to show Data Importer.
 
+### AuraDB Option
+
+![image]
+
+### Local (Neo4j Desktop) Option
+
 ### Installing Neo4j Desktop
 
 ### Loading sample data dumps
+
