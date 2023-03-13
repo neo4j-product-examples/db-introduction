@@ -1,0 +1,9 @@
+[submodule "cybersecurity"]
+	path = cybersecurity
+	url = https://github.com/neo4j-graph-examples/cybersecurity
+[submodule "recommendations"]
+	path = recommendations
+	url = https://github.com/neo4j-graph-examples/recommendations
+[submodule "stackoverflow"]
+	path = stackoverflow
+	url = https://github.com/neo4j-graph-examples/stackoverflow
