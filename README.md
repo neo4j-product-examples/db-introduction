@@ -12,7 +12,7 @@ The other option is to load the sample data into local databases running on Neo4
 
 ![image](https://github.com/neo4j-product-examples/db-introduction/blob/9b8e2935c1900270c6dffa5dc281c91b6f39dc70/img/Aura.png)
 
-For this option, simply log into your Aura account and create a Free instance. You can use any of the ptions that have sample data, but the StackOverflow, Recommendations, and Cybersecurity may resonate more. 
+For this option, simply log into your Aura account and create a Free instance. You can use any of the ptions that have sample data, but the StackOverflow, Recommendations, and Cybersecurity may resonate more. **IMPORTANT: be sure to copy and save the password somewhere. There is no way to recover it if you don't**
 
 ![image](https://github.com/neo4j-product-examples/db-introduction/blob/db82798953e370fedb277b1fd9979fdca1839c88/img/free-options.png)
 
@@ -35,3 +35,4 @@ Follow these steps:
 - Click the "start" button next to the new DBMS. Depending on your OS and what services are running, you may be prompted to fix the configuration because of port conflicts
 - test by opening the dbms using browser and running this query: `call db.schema.visualization` You should see a representation of the schema (you may have to click the "graph" view)
 - test by opening the dbms with bloom and running `show me a graph` 
+- Default memory setup should be sufficient for simple demos, but you can increase if you like
