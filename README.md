@@ -12,22 +12,26 @@ The other option is to load the sample data into local databases running on Neo4
 
 ![image](https://github.com/neo4j-product-examples/db-introduction/blob/9b8e2935c1900270c6dffa5dc281c91b6f39dc70/img/Aura.png)
 
-For this option, simply log into your Aura account and create a Free instance. You can use any of the ptions that have sample data, but the StackOverflow, Recommendations, and Cybersecurity may resonate more. Make sure to switch your account settings to workspace (and not the classic experience):
+For this option, simply log into your Aura account and create a Free instance. You can use any of the ptions that have sample data, but the StackOverflow, Recommendations, and Cybersecurity may resonate more. 
 
-![image]()
+![image](https://github.com/neo4j-product-examples/db-introduction/blob/db82798953e370fedb277b1fd9979fdca1839c88/img/free-options.png)
+
+Make sure to switch your account settings to workspace (and not the classic experience):
+
+![image](https://github.com/neo4j-product-examples/db-introduction/blob/db82798953e370fedb277b1fd9979fdca1839c88/img/workspace-options.png)
 
 ### Local (Neo4j Desktop) Option
 
 First, download and install [Neo4j Desktop](https://neo4j.com/download/). Open Neo4j Desktop and click the graph apps icon on the left. Insure that you have Neo4j Browser and Neo4j Bloom installed:
 
-![image]()
+![image](https://github.com/neo4j-product-examples/db-introduction/blob/db82798953e370fedb277b1fd9979fdca1839c88/img/graph-apps.png)
 
-create new project
-Add dump file
-Create new DBMS from dump
-Set name, password, version (latest)
-start (fix configuration if needed)
-open with browser
-test: call db.schema.visualization
-open with bloom
-test: show me a graph
+Follow these steps:
+
+- Create a new project
+- Add one (or more) of the dump files containing the sample data set(s)
+- Use the context menu to create a new DBMS from the dump file. Alternatively, if you already have an instance (DBMS) running, you can import dump into existing dbms
+- In most cases, you should use the latest version of Neo4j
+- Click the "start" button next to the new DBMS. Depending on your OS and what services are running, you may be prompted to fix the configuration because of port conflicts
+- test by opening the dbms using browser and running this query: `call db.schema.visualization` You should see a representation of the schema (you may have to click the "graph" view)
+- test by opening the dbms with bloom and running `show me a graph` 
