@@ -12,11 +12,22 @@ The other option is to load the sample data into local databases running on Neo4
 
 ![image](https://github.com/neo4j-product-examples/db-introduction/blob/9b8e2935c1900270c6dffa5dc281c91b6f39dc70/img/Aura.png)
 
-For this option, simply log into your Aura account and create a Free instance. You can use any of the ptions that have sample data, but the StackOverflow, Recommendations, and Cybersecurity may resonate more.
+For this option, simply log into your Aura account and create a Free instance. You can use any of the ptions that have sample data, but the StackOverflow, Recommendations, and Cybersecurity may resonate more. Make sure to switch your account settings to workspace (and not the classic experience):
+
+![image]()
 
 ### Local (Neo4j Desktop) Option
 
-### Installing Neo4j Desktop
+First, download and install [Neo4j Desktop](https://neo4j.com/download/). Open Neo4j Desktop and click the graph apps icon on the left. Insure that you have Neo4j Browser and Neo4j Bloom installed:
 
-### Loading sample data dumps
+![image]()
 
+create new project
+Add dump file
+Create new DBMS from dump
+Set name, password, version (latest)
+start (fix configuration if needed)
+open with browser
+test: call db.schema.visualization
+open with bloom
+test: show me a graph
